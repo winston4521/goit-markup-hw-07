@@ -6,6 +6,23 @@ body {
 }
 
 .section {
-  padding-bottom: 94px;
-  padding-top: 94px;
+  @media screen and (max-width: 1599px) {
+    padding: 60px 15px;
+  }
+  @media screen and (min-width: 1600px) {
+    padding: 94px 0px;
+  }
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+
+  @media screen and (max-width: 1599px) {
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 1600px) {
+    margin-bottom: 50px;
+  }
 }

@@ -3,11 +3,6 @@
   border-bottom: 1px solid var(--bgc-color-white);
 }
 
-// .section {
-//   padding-bottom: 94px;
-//   padding-top: 94px;
-// }
-
 .portfolio-titel {
   @extend %hidden;
 }
@@ -92,7 +87,6 @@
 
   color: var(--white-color);
 }
-
 
 // portfolio btns
 .btn-list {

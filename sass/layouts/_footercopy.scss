@@ -1,11 +1,11 @@
 .footer {
   background-color: var(--footer-color);
- 
+  padding: 60px 0px;
 }
 
 .footer-flex {
-  // display: flex;
-  // align-items: baseline;
+  display: flex;
+  align-items: baseline;
 }
 .main-adress {
   margin-top: 20px;
